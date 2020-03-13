@@ -9,7 +9,7 @@ Multiple environment can be provision using the same code.
 - SSL Certificate to be used in cloudfront (Redirect all Http to Https requests)
 - Cloudfront
 - S3 Bucket (s3 bucker for the website per environment & s3 bucket for pipelines artifacts)
-- AWS repository,CodeBuild & Code Pipeline
+- CodeCommit ,CodeBuild & Code Pipeline
 - AWS IAM Role
 
 ## Architecture
