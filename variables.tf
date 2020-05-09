@@ -31,9 +31,6 @@ variable "domainName" {
   default = "example.com"
 }
 
-variable "pipelineRoleArn" {
-  default = "arn:aws:iam::852943587558:role/finterra-codePipeline-role"
-}
 
 
 variable "repoBranch" {
@@ -42,7 +39,4 @@ variable "repoBranch" {
     "0" = "staging"
     "1" = "master"
   }
-}
-variable "buildProject" {
-  default = "angularBuildProject"
-}
+
